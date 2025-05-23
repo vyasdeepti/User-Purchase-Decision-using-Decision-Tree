@@ -1,5 +1,3 @@
-Certainly! Here is a **detailed README** for the `Decision_Tree.ipynb` notebook, including a comprehensive description of the workflow, dataset, relevant code steps, expected outputs, and guidance for both beginners and experienced users.
-
 ---
 
 # Decision Tree Classifier: Social Network Ads Prediction
