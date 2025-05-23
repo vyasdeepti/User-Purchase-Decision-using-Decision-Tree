@@ -14,7 +14,6 @@ This notebook, [`Decision_Tree.ipynb`](https://github.com/vyasdeepti/Machine-Lea
 ## 💡 Table of Contents 📚
 
 - 🧪 [Overview](#overview)
-- ✨ [Decision Tree](#decisiontree)
 - 📊 [Dataset](#dataset)
 - 🏗️ [Workflow](#workflow)
   - [1. Import Libraries](#1-import-libraries)
@@ -37,7 +36,7 @@ This notebook, [`Decision_Tree.ipynb`](https://github.com/vyasdeepti/Machine-Lea
 The notebook guides you through a supervised classification problem: **Will a social network user purchase a product after seeing an ad?** Using the `DecisionTreeClassifier` from scikit-learn, we build a predictive model based on user demographics and salary information. This workflow is suitable for students, data science beginners, and anyone seeking a practical illustration of decision trees in Python.
 
 ---
-## Decision Tree
+#Decision Tree: The Basics
 
 
 ### Introduction 💡
