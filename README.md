@@ -73,6 +73,11 @@ The notebook starts by importing all the necessary libraries, including:
 - Uses `describe()` to summarize numerical features (mean, std, min/max, quartiles).
 - Visualizes distributions (e.g., histograms, boxplots) and examines relationships between features.
 
+  ![image](https://github.com/user-attachments/assets/09bfe512-49f3-45a6-8583-cac8026430b8)
+  ![image](https://github.com/user-attachments/assets/067bb5d6-a161-4c12-8422-dd966fcf6f88)
+  ![image](https://github.com/user-attachments/assets/8b136de8-168a-493c-915f-99d878930309)
+  
+
 ### 5. Feature Engineering & Splitting
 
 - **Feature Selection:** Chooses relevant columns as features (`Gender`, `Age`, `EstimatedSalary`).
@@ -98,6 +103,10 @@ The notebook starts by importing all the necessary libraries, including:
 - Visualizes the decision boundaries of the trained classifier.
 - Uses scatter plots to show correctly and incorrectly classified points.
 - Optionally, plots the tree structure for interpretability.
+
+  ![image](https://github.com/user-attachments/assets/f7155058-488b-4cea-831b-7dd719f9aa94)
+ 
+
 
 ---
 
