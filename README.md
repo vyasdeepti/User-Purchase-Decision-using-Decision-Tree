@@ -11,13 +11,13 @@ This notebook, [`Decision_Tree.ipynb`](https://github.com/vyasdeepti/Machine-Lea
 
 - [Overview](#overview)
 - [Dataset](#dataset)
-- [Workflow](#workflow)
+- 🏗️ [Workflow](#workflow)
   - [1. Import Libraries](#1-import-libraries)
   - [2. Import Dataset](#2-import-dataset)
   - [3. Data Preprocessing](#3-data-preprocessing)
   - 🚀 [4. Exploratory Data Analysis (EDA)](#4-exploratory-data-analysis-eda)
   - [5. Feature Engineering & Splitting](#5-feature-engineering--splitting)
-  - [6. Model Training](#6-model-training)
+  - 🧪 [6. Model Training](#6-model-training)
   - 💡 [7. Model Evaluation](#7-model-evaluation)
   - 📊 [8. Visualization](#8-visualization)
 - 🔎 [How to Run the Notebook](#how-to-run-the-notebook)
@@ -100,6 +100,17 @@ The notebook starts by importing all the necessary libraries, including:
 - Optionally, plots the tree structure for interpretability.
 
 ---
+
+## 🏗️ Project Structure
+
+```plaintext
+notebooks/
+  └── Decision_Tree.ipynb
+data/
+  └── Social_Network_Ads.csv
+README.md
+
+```
 
 ## How to Run the Notebook
 
@@ -227,7 +238,15 @@ Upon completion, you will have:
 - [Seaborn Documentation](https://seaborn.pydata.org/)
 
 ---
+## ❓ FAQ
 
+**Q:** What Python version is required?  
+**A:** Python 3.7 or higher.
+
+**Q:** Can I use my own dataset?  
+**A:** Yes! Replace `Social_Network_Ads.csv` with your data.
+
+---
 
 *For questions or suggestions, please open an issue or contact the repository maintainer via GitHub.*
 
