@@ -165,14 +165,6 @@ pip install -r requirements.txt
 
 ---
 
-## License
-
-This project is part of the [vyasdeepti/Machine-Learning](https://github.com/vyasdeepti/Machine-Learning) repository and is intended for educational purposes.
-
----
-
-**Author:** [vyasdeepti](https://github.com/vyasdeepti)  
-**Notebook:** [Decision_Tree.ipynb](https://github.com/vyasdeepti/Machine-Learning/blob/main/Decision_Tree.ipynb)
 
 ---
 
