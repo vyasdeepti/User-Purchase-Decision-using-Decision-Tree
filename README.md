@@ -355,12 +355,12 @@ The matrix lets us see how many correct and incorrect predictions the model made
 | Confusion Matrix  | Evaluate classifier predictions                   | `cm = confusion_matrix(y_test, y_pred)`                      |
 
 
-Upon completion, you will have: 🚀
+Upon completion, you will have: 
 
-- A well-trained Decision Tree model for the classification problem.
-- Performance metrics showing how well the model predicts user purchases.
-- Visualizations that make the model’s logic and performance transparent.
-- Insights into which features are most important for the prediction.
+- 🚀 A well-trained Decision Tree model for the classification problem.
+- 🚀 Performance metrics showing how well the model predicts user purchases.
+- 🚀 Visualizations that make the model’s logic and performance transparent.
+- 🚀 Insights into which features are most important for the prediction.
 
 ---
 
