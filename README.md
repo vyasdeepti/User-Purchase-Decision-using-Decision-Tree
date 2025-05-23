@@ -130,6 +130,76 @@ The notebook starts by importing all the necessary libraries, including:
 
 ## Results & Interpretation
 
+Here's an explanation of the four concepts in the context of your code in Decision_Tree.ipynb:
+
+---
+
+### 1. Label Encoding
+**What it is:** Label encoding is the process of converting categorical variables (like "Gender") into numeric codes, so they can be used in machine learning models.
+
+**How it's done in your code:**  
+Your code uses `LabelEncoder` from scikit-learn, likely doing something like:
+```python
+from sklearn.preprocessing import LabelEncoder
+le = LabelEncoder()
+df_net['Gender'] = le.fit_transform(df_net['Gender'])
+```
+This converts the "Gender" column from "Male"/"Female" to 1/0 (or 0/1), making it usable for the decision tree model.
+
+---
+
+### 2. Correlation Matrix
+**What it is:** A correlation matrix shows the relationship (correlation coefficient) between pairs of features. Values range from -1 (perfect negative correlation) to 1 (perfect positive correlation).
+
+**How it's used:**  
+Your code probably uses pandas or seaborn to visualize the correlations:
+```python
+corr = df_net.corr()
+sns.heatmap(corr, annot=True)
+```
+This helps you see which features are strongly related to each other or to the target "Purchased".
+
+---
+
+### 3. Feature Scaling
+**What it is:** Feature scaling standardizes numeric features so that they have similar ranges, which helps many machine learning models perform better.
+
+**How it's done in your code:**  
+You use `StandardScaler`:
+```python
+from sklearn.preprocessing import StandardScaler
+sc = StandardScaler()
+X = sc.fit_transform(X)
+```
+This transforms features like "Age" and "EstimatedSalary" to have mean 0 and standard deviation 1.
+
+---
+
+### 4. Confusion Matrix
+**What it is:** A confusion matrix is a table that visualizes the performance of a classification algorithm, showing counts of true positives, false positives, true negatives, and false negatives.
+
+**How it's used in your code:**  
+You use scikit-learn’s `confusion_matrix`:
+```python
+from sklearn.metrics import confusion_matrix
+cm = confusion_matrix(y_test, y_pred)
+print(cm)
+```
+The matrix lets you see how many correct and incorrect predictions the model made for each class (Purchased = 1 or 0).
+
+---
+
+**Summary Table:**
+
+| Concept           | Purpose                                           | Code Example                                                 |
+|-------------------|---------------------------------------------------|--------------------------------------------------------------|
+| Label Encoding    | Convert categories to numbers                     | `df_net['Gender'] = le.fit_transform(df_net['Gender'])`      |
+| Correlation Matrix| Show relationships between features               | `corr = df_net.corr(); sns.heatmap(corr, annot=True)`        |
+| Feature Scaling   | Standardize feature ranges                        | `X = sc.fit_transform(X)`                                    |
+| Confusion Matrix  | Evaluate classifier predictions                   | `cm = confusion_matrix(y_test, y_pred)`                      |
+
+If you want to see the exact code for any of these steps or need further details, let me know!
+
 Upon completion, you will have:
 
 - A well-trained Decision Tree model for the classification problem.
