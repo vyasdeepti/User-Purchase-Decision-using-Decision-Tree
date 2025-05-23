@@ -14,7 +14,7 @@ This notebook, [`Decision_Tree.ipynb`](https://github.com/vyasdeepti/Machine-Lea
 ## 💡 Table of Contents 📚
 
 - 🧪 [Overview](#overview)
-- ✨ [What Is a Decision Tree: Working and Example]
+- ✨ [What Is a Decision Tree: Working and Example](#decisiontree)
 - 📊 [Dataset](#dataset)
 - 🏗️ [Workflow](#workflow)
   - [1. Import Libraries](#1-import-libraries)
