@@ -390,7 +390,3 @@ Upon completion, you will have:
 **A:** Yes! Replace `Social_Network_Ads.csv` with your data.
 
 ---
-
-*For questions or suggestions, please open an issue or contact the repository maintainer via GitHub.*
-
-Let me know if you want this tailored for a classroom audience, a different dataset, or expanded with troubleshooting tips!
