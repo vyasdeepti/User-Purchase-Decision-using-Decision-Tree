@@ -1,7 +1,8 @@
 
 ---
 
-# Decision Tree Classifier: Social Network Ads Prediction 💭  ![image](https://github.com/user-attachments/assets/2baad095-c755-4c36-acc8-e209d2f495c9) ![image](https://github.com/user-attachments/assets/435d578c-500f-4693-ba29-4a5cf489b5ab) ![image](https://github.com/user-attachments/assets/468c9f7f-d6f6-446f-925c-49eb0b8b46c7)
+# Decision Tree Classifier: Social Network Ads Prediction 💭  ![image](https://github.com/user-attachments/assets/2baad095-c755-4c36-acc8-e209d2f495c9) ![image](https://github.com/user-attachments/assets/435d578c-500f-4693-ba29-4a5cf489b5ab) ![image](https://github.com/user-attachments/assets/468c9f7f-d6f6-446f-925c-49eb0b8b46c7) ![image](https://github.com/user-attachments/assets/23c5c09a-8e4c-48cd-ac55-aeac2b29ff69)
+
 
 
 ---
@@ -31,14 +32,14 @@ This notebook, [`Decision_Tree.ipynb`](https://github.com/vyasdeepti/Machine-Lea
 
 ---
 
-## Overview
+## Overview 
 
 The notebook guides you through a supervised classification problem: **Will a social network user purchase a product after seeing an ad?** Using the `DecisionTreeClassifier` from scikit-learn, we build a predictive model based on user demographics and salary information. This workflow is suitable for students, data science beginners, and anyone seeking a practical illustration of decision trees in Python.
 
 ---
-## What Is a Decision Tree: Working and Example
+## What Is a Decision Tree: Working and Example 📙
 
-### Introduction
+### Introduction 💡
 
 A **Decision Tree** is a popular supervised machine learning algorithm that is used for both classification and regression tasks. It works by breaking down complex decision-making processes into a series of simpler decisions, represented as a tree-like graph of nodes and branches. Decision Trees are intuitive, easy to visualize, and require minimal data preparation.
 
@@ -55,7 +56,7 @@ The path from the root to a leaf represents a classification or decision rule.
 
 ---
 
-### How Decision Trees Work
+### How Decision Trees Work 💡
 
 1. **Select the Best Feature**: The algorithm chooses the feature that best splits the dataset into subsets with distinct target values. Common criteria:
    - **Gini Impurity** (for classification)
@@ -70,7 +71,7 @@ The path from the root to a leaf represents a classification or decision rule.
 
 ---
 
-### Example: Decision Tree for Classification
+### Example: Decision Tree for Classification 💡
 
 Suppose we want to build a Decision Tree to classify whether someone will play tennis based on the weather.
 
@@ -108,7 +109,7 @@ Outlook?
 
 ---
 
-### Example: Decision Tree for Regression
+### Example: Decision Tree for Regression 💡
 
 Suppose you want to predict house prices based on features like size and location.
 
@@ -117,7 +118,7 @@ Suppose you want to predict house prices based on features like size and locatio
 
 ---
 
-### Advantages of Decision Trees
+### Advantages of Decision Trees 💡
 
 - **Easy to understand and interpret**: Can be visualized graphically.
 - **No need for feature scaling**: Handles both numerical and categorical data.
@@ -125,7 +126,7 @@ Suppose you want to predict house prices based on features like size and locatio
 
 ---
 
-### Disadvantages of Decision Trees
+### Disadvantages of Decision Trees 💡
 
 - **Prone to overfitting**: Especially with deep trees and small datasets.
 - **Unstable**: Small variations in the data can result in a different tree.
@@ -133,7 +134,7 @@ Suppose you want to predict house prices based on features like size and locatio
 
 ---
 
-### Best Practices
+### Best Practices 💡
 
 - **Prune the tree**: Limit the maximum depth or minimum samples per leaf.
 - **Use ensembles**: Techniques like Random Forest and Gradient Boosting combine multiple trees for better generalization.
@@ -141,7 +142,7 @@ Suppose you want to predict house prices based on features like size and locatio
 
 ---
 
-### Implementing a Decision Tree in Python (Scikit-learn Example)
+### Implementing a Decision Tree in Python (Scikit-learn Example) 💡
 
 ```python
 from sklearn.datasets import load_iris
@@ -166,6 +167,8 @@ plt.show()
 
 
 ---
+# Decision Tree Classifier: Social Network Ads Prediction 💭 
+
 ## Dataset 📄
 
 - **File:** `Social_Network_Ads.csv`
