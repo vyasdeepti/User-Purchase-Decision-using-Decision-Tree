@@ -1,7 +1,7 @@
 
 ---
 
-# Decision Tree Classifier: Social Network Ads Prediction 💭  ![image](https://github.com/user-attachments/assets/2baad095-c755-4c36-acc8-e209d2f495c9) ![image](https://github.com/user-attachments/assets/435d578c-500f-4693-ba29-4a5cf489b5ab) ![image](https://github.com/user-attachments/assets/468c9f7f-d6f6-446f-925c-49eb0b8b46c7) 
+# Decision Tree Classifier: Social Network Ads Prediction💭  ![image](https://github.com/user-attachments/assets/2baad095-c755-4c36-acc8-e209d2f495c9) ![image](https://github.com/user-attachments/assets/435d578c-500f-4693-ba29-4a5cf489b5ab) ![image](https://github.com/user-attachments/assets/468c9f7f-d6f6-446f-925c-49eb0b8b46c7) 
 
 
 
@@ -14,7 +14,7 @@ This notebook, [`Decision_Tree.ipynb`](https://github.com/vyasdeepti/Machine-Lea
 ## 💡 Table of Contents 📚
 
 - 🧪 [Overview](#overview)
-- ✨ [What Is a Decision Tree: Working and Example](#Whatisdecisiontree?)
+- ✨ [What Is a Decision Tree: Working and Example]
 - 📊 [Dataset](#dataset)
 - 🏗️ [Workflow](#workflow)
   - [1. Import Libraries](#1-import-libraries)
