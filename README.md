@@ -1,13 +1,13 @@
 
 ---
 
-# Decision Tree Classifier: Social Network Ads Prediction
+# Decision Tree Classifier: Social Network Ads Prediction 💭
 
 This notebook, [`Decision_Tree.ipynb`](https://github.com/vyasdeepti/Machine-Learning/blob/main/Decision_Tree.ipynb), demonstrates a complete machine learning workflow using a **Decision Tree Classifier** to predict user purchase decisions based on social network advertisements. The project illustrates each stage of the pipeline: data import, preprocessing, exploratory data analysis, model training, evaluation, and practical interpretation of results.
 
 ---
 
-## Table of Contents
+## Table of Contents 📚
 
 - [Overview](#overview)
 - [Dataset](#dataset)
@@ -33,7 +33,7 @@ The notebook guides you through a supervised classification problem: **Will a so
 
 ---
 
-## Dataset
+## Dataset 📄
 
 - **File:** `Social_Network_Ads.csv`
 - **Columns:**
@@ -47,7 +47,7 @@ The dataset consists of 400 entries, each representing a unique user and their r
 
 ---
 
-## Workflow
+## Workflow 📗
 
 ### 1. Import Libraries
 
@@ -68,7 +68,7 @@ The notebook starts by importing all the necessary libraries, including:
 - **Feature Scaling (Optional):** Scales `Age` and `EstimatedSalary` for improved model performance.
 - **Null/Outlier Check:** (Recommended for real-world data)
 
-### 4. Exploratory Data Analysis (EDA)
+### 4. Exploratory Data Analysis (EDA) 🚀
 
 - Uses `describe()` to summarize numerical features (mean, std, min/max, quartiles).
 - Visualizes distributions (e.g., histograms, boxplots) and examines relationships between features.
@@ -93,7 +93,7 @@ The notebook starts by importing all the necessary libraries, including:
   - **F1 Score**
 - Optionally, plots Precision-Recall curves and other metrics.
 
-### 8. Visualization
+### 8. Visualization 📊
 
 - Visualizes the decision boundaries of the trained classifier.
 - Uses scatter plots to show correctly and incorrectly classified points.
