@@ -166,8 +166,6 @@ pip install -r requirements.txt
 ---
 
 
----
-
 *For questions or suggestions, please open an issue or contact the repository maintainer via GitHub.*
 
 ---
