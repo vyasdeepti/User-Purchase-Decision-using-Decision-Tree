@@ -168,6 +168,6 @@ pip install -r requirements.txt
 
 *For questions or suggestions, please open an issue or contact the repository maintainer via GitHub.*
 
----
+
 
 Let me know if you want this tailored for a classroom audience, a different dataset, or expanded with troubleshooting tips!
