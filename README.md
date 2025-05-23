@@ -1,29 +1,29 @@
 
 ---
 
-# Decision Tree Classifier: Social Network Ads Prediction 💭
+# Decision Tree Classifier: Social Network Ads Prediction 💭🚀
 
 This notebook, [`Decision_Tree.ipynb`](https://github.com/vyasdeepti/Machine-Learning/blob/main/Decision_Tree.ipynb), demonstrates a complete machine learning workflow using a **Decision Tree Classifier** to predict user purchase decisions based on social network advertisements. The project illustrates each stage of the pipeline: data import, preprocessing, exploratory data analysis, model training, evaluation, and practical interpretation of results.
 
 ---
 
-## Table of Contents 📚
+## 💡 Table of Contents 📚
 
-- [Overview](#overview)
-- [Dataset](#dataset)
+- 🧪 [Overview](#overview)
+- 📊 [Dataset](#dataset)
 - 🏗️ [Workflow](#workflow)
   - [1. Import Libraries](#1-import-libraries)
   - [2. Import Dataset](#2-import-dataset)
   - [3. Data Preprocessing](#3-data-preprocessing)
-  - 🚀 [4. Exploratory Data Analysis (EDA)](#4-exploratory-data-analysis-eda)
+  - [4. Exploratory Data Analysis (EDA)](#4-exploratory-data-analysis-eda)
   - [5. Feature Engineering & Splitting](#5-feature-engineering--splitting)
-  - 🧪 [6. Model Training](#6-model-training)
-  - 💡 [7. Model Evaluation](#7-model-evaluation)
-  - 📊 [8. Visualization](#8-visualization)
+  - [6. Model Training](#6-model-training)
+  - [7. Model Evaluation](#7-model-evaluation)
+  - [8. Visualization](#8-visualization)
 - 🔎 [How to Run the Notebook](#how-to-run-the-notebook)
 - 🧪 [Results & Interpretation](#results--interpretation)
 - 🛠️ [Requirements](#requirements)
-- [References](#references)
+- ✨ [References](#references)
 
 ---
 
@@ -230,7 +230,7 @@ Upon completion, you will have:
 
 ---
 
-## References
+## References ✨
 
 - [scikit-learn Documentation: Decision Trees](https://scikit-learn.org/stable/modules/tree.html)
 - [Pandas Documentation](https://pandas.pydata.org/)
