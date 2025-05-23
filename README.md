@@ -184,7 +184,7 @@ The dataset consists of 400 entries, each representing a unique user and their r
 
 ---
 
-## Workflow 📗
+## Workflow
 
 ### 1. Import Libraries
 
@@ -365,7 +365,7 @@ Upon completion, you will have:
 
 ---
 
-## Requirements 🔎
+## Requirements
 
 - Python 3.x
 - pandas
@@ -376,7 +376,7 @@ Upon completion, you will have:
 
 ---
 
-## References ✨
+## References
 
 - [scikit-learn Documentation: Decision Trees](https://scikit-learn.org/stable/modules/tree.html)
 - [Pandas Documentation](https://pandas.pydata.org/)
