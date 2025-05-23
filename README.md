@@ -130,15 +130,15 @@ The notebook starts by importing all the necessary libraries, including:
 
 ## Results & Interpretation
 
-Here's an explanation of the four concepts in the context of your code in Decision_Tree.ipynb:
+Here's an explanation of the concepts in the context of the code in Decision_Tree.ipynb:
 
 ---
 
 ### 1. Label Encoding
 **What it is:** Label encoding is the process of converting categorical variables (like "Gender") into numeric codes, so they can be used in machine learning models.
 
-**How it's done in your code:**  
-Your code uses `LabelEncoder` from scikit-learn, likely doing something like:
+**How it's done in the code:**  
+This code uses `LabelEncoder` from scikit-learn, likely doing something like:
 ```python
 from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
@@ -152,7 +152,7 @@ This converts the "Gender" column from "Male"/"Female" to 1/0 (or 0/1), making i
 **What it is:** A correlation matrix shows the relationship (correlation coefficient) between pairs of features. Values range from -1 (perfect negative correlation) to 1 (perfect positive correlation).
 
 **How it's used:**  
-Your code probably uses pandas or seaborn to visualize the correlations:
+This code probably uses pandas or seaborn to visualize the correlations:
 ```python
 corr = df_net.corr()
 sns.heatmap(corr, annot=True)
@@ -164,8 +164,8 @@ This helps you see which features are strongly related to each other or to the t
 ### 3. Feature Scaling
 **What it is:** Feature scaling standardizes numeric features so that they have similar ranges, which helps many machine learning models perform better.
 
-**How it's done in your code:**  
-You use `StandardScaler`:
+**How it's done in the code:**  
+We have used `StandardScaler`:
 ```python
 from sklearn.preprocessing import StandardScaler
 sc = StandardScaler()
@@ -178,14 +178,14 @@ This transforms features like "Age" and "EstimatedSalary" to have mean 0 and sta
 ### 4. Confusion Matrix
 **What it is:** A confusion matrix is a table that visualizes the performance of a classification algorithm, showing counts of true positives, false positives, true negatives, and false negatives.
 
-**How it's used in your code:**  
-You use scikit-learn’s `confusion_matrix`:
+**How it's used in the code:**  
+We have used scikit-learn’s `confusion_matrix`:
 ```python
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
 print(cm)
 ```
-The matrix lets you see how many correct and incorrect predictions the model made for each class (Purchased = 1 or 0).
+The matrix lets us see how many correct and incorrect predictions the model made for each class (Purchased = 1 or 0).
 
 ---
 
@@ -198,7 +198,6 @@ The matrix lets you see how many correct and incorrect predictions the model mad
 | Feature Scaling   | Standardize feature ranges                        | `X = sc.fit_transform(X)`                                    |
 | Confusion Matrix  | Evaluate classifier predictions                   | `cm = confusion_matrix(y_test, y_pred)`                      |
 
-If you want to see the exact code for any of these steps or need further details, let me know!
 
 Upon completion, you will have:
 
@@ -218,12 +217,6 @@ Upon completion, you will have:
 - seaborn
 - scikit-learn
 
-Install all requirements using:
-```bash
-pip install -r requirements.txt
-```
-*(Create `requirements.txt` or install individually as needed.)*
-
 ---
 
 ## References
@@ -237,7 +230,5 @@ pip install -r requirements.txt
 
 
 *For questions or suggestions, please open an issue or contact the repository maintainer via GitHub.*
-
-
 
 Let me know if you want this tailored for a classroom audience, a different dataset, or expanded with troubleshooting tips!
