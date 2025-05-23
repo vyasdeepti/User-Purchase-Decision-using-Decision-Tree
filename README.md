@@ -1,7 +1,9 @@
 
 ---
 
-# Decision Tree Classifier: Social Network Ads Prediction 💭 ![image](https://github.com/user-attachments/assets/4b3ac1f7-fa61-4d17-9a63-cdf415d3fbd4)
+# Decision Tree Classifier: Social Network Ads Prediction 💭 ![image](https://github.com/user-attachments/assets/4b3ac1f7-fa61-4d17-9a63-cdf415d3fbd4) ![image](https://github.com/user-attachments/assets/2baad095-c755-4c36-acc8-e209d2f495c9)![image](https://github.com/user-attachments/assets/435d578c-500f-4693-ba29-4a5cf489b5ab)
+
+
 
 
 This notebook, [`Decision_Tree.ipynb`](https://github.com/vyasdeepti/Machine-Learning/blob/main/Decision_Tree.ipynb), demonstrates a complete machine learning workflow using a **Decision Tree Classifier** to predict user purchase decisions based on social network advertisements. The project illustrates each stage of the pipeline: data import, preprocessing, exploratory data analysis, model training, evaluation, and practical interpretation of results.
