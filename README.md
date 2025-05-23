@@ -9,20 +9,20 @@ This notebook, [`Decision_Tree.ipynb`](https://github.com/vyasdeepti/Machine-Lea
 
 ## Table of Contents 📚
 
-- 🚀 [Overview](#overview)
+- [Overview](#overview)
 - [Dataset](#dataset)
 - [Workflow](#workflow)
   - [1. Import Libraries](#1-import-libraries)
   - [2. Import Dataset](#2-import-dataset)
   - [3. Data Preprocessing](#3-data-preprocessing)
-  - [4. Exploratory Data Analysis (EDA)](#4-exploratory-data-analysis-eda)
+  - 🚀 [4. Exploratory Data Analysis (EDA)](#4-exploratory-data-analysis-eda)
   - [5. Feature Engineering & Splitting](#5-feature-engineering--splitting)
   - [6. Model Training](#6-model-training)
-  - [7. Model Evaluation](#7-model-evaluation)
-  - [8. Visualization](#8-visualization)
-- [How to Run the Notebook](#how-to-run-the-notebook)
-- [Results & Interpretation](#results--interpretation)
-- [Requirements](#requirements)
+  - 💡 [7. Model Evaluation](#7-model-evaluation)
+  - 📊 [8. Visualization](#8-visualization)
+- 🔎 [How to Run the Notebook](#how-to-run-the-notebook)
+- 🧪 [Results & Interpretation](#results--interpretation)
+- 🛠️ [Requirements](#requirements)
 - [References](#references)
 
 ---
