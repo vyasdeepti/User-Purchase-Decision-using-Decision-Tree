@@ -210,6 +210,34 @@ The matrix lets us see how many correct and incorrect predictions the model made
 | Confusion Matrix  | Evaluate classifier predictions                   | `cm = confusion_matrix(y_test, y_pred)`                      |
 
 
+<table>
+  <tr>
+    <th>Concept</th>
+    <th>Purpose</th>
+    <th>Code Example</th>
+  </tr>
+  <tr style="background-color: #fff9b1;">
+    <td>Label Encoding</td>
+    <td>Convert categories to numbers</td>
+    <td><code>df_net['Gender'] = le.fit_transform(df_net['Gender'])</code></td>
+  </tr>
+  <tr style="background-color: #fff9b1;">
+    <td>Correlation Matrix</td>
+    <td>Show relationships between features</td>
+    <td><code>corr = df_net.corr(); sns.heatmap(corr, annot=True)</code></td>
+  </tr>
+  <tr style="background-color: #fff9b1;">
+    <td>Feature Scaling</td>
+    <td>Standardize feature ranges</td>
+    <td><code>X = sc.fit_transform(X)</code></td>
+  </tr>
+  <tr style="background-color: #fff9b1;">
+    <td>Confusion Matrix</td>
+    <td>Evaluate classifier predictions</td>
+    <td><code>cm = confusion_matrix(y_test, y_pred)</code></td>
+  </tr>
+</table>
+
 Upon completion, you will have: 🚀
 
 - A well-trained Decision Tree model for the classification problem.
