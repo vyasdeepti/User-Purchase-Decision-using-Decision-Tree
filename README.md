@@ -1,7 +1,7 @@
 
 ---
 
-# Decision Tree Classifier: Social Network Ads Prediction 💭🚀
+# Decision Tree Classifier: Social Network Ads Prediction 💭
 
 This notebook, [`Decision_Tree.ipynb`](https://github.com/vyasdeepti/Machine-Learning/blob/main/Decision_Tree.ipynb), demonstrates a complete machine learning workflow using a **Decision Tree Classifier** to predict user purchase decisions based on social network advertisements. The project illustrates each stage of the pipeline: data import, preprocessing, exploratory data analysis, model training, evaluation, and practical interpretation of results.
 
@@ -210,7 +210,7 @@ The matrix lets us see how many correct and incorrect predictions the model made
 | Confusion Matrix  | Evaluate classifier predictions                   | `cm = confusion_matrix(y_test, y_pred)`                      |
 
 
-Upon completion, you will have:
+Upon completion, you will have: 🚀
 
 - A well-trained Decision Tree model for the classification problem.
 - Performance metrics showing how well the model predicts user purchases.
@@ -219,7 +219,7 @@ Upon completion, you will have:
 
 ---
 
-## Requirements
+## Requirements 🔎
 
 - Python 3.x
 - pandas
