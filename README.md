@@ -1,5 +1,4 @@
-
----
+![Visitor Count](https://profile-counter.glitch.me/vyasdeepti/count.svg)
 
 # Decision Tree Classifier: Social Network Ads Prediction💭  ![image](https://github.com/user-attachments/assets/2baad095-c755-4c36-acc8-e209d2f495c9) ![image](https://github.com/user-attachments/assets/435d578c-500f-4693-ba29-4a5cf489b5ab) ![image](https://github.com/user-attachments/assets/468c9f7f-d6f6-446f-925c-49eb0b8b46c7) 
 
@@ -389,5 +388,4 @@ Upon completion, you will have:
 **Q:** Can I use my own dataset?  
 **A:** Yes! Replace `Social_Network_Ads.csv` with your data.
 
-![Visitor Count](https://profile-counter.glitch.me/vyasdeepti/count.svg)
----
+
