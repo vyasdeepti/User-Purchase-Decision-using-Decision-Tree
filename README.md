@@ -389,4 +389,5 @@ Upon completion, you will have:
 **Q:** Can I use my own dataset?  
 **A:** Yes! Replace `Social_Network_Ads.csv` with your data.
 
+![Visitor Count](https://profile-counter.glitch.me/vyasdeepti/count.svg)
 ---
