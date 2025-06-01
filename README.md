@@ -8,6 +8,7 @@
 
 This notebook, [`Decision_Tree.ipynb`](https://github.com/vyasdeepti/Machine-Learning/blob/main/Decision_Tree.ipynb), demonstrates a complete machine learning workflow using a **Decision Tree Classifier** to predict user purchase decisions based on social network advertisements. The project illustrates each stage of the pipeline: data import, preprocessing, exploratory data analysis, model training, evaluation, and practical interpretation of results.
 
+Basics of Decision Trees : https://github.com/vyasdeepti/Decision-Tree-Tutorial
 ---
 
 ## 💡 Table of Contents 📚
